@@ -13,8 +13,8 @@ A simple Java Swing application for managing polls and votes, designed as a coll
 ## Project Structure
 
 ```
-VoteManagementSystem/
-├── src/com/votesystem/
+Java CIAP/
+├── votesystem/
 │   ├── VoteManagementSystem.java    # Main application class
 │   ├── models/                      # Data models
 │   │   ├── User.java
@@ -28,6 +28,8 @@ VoteManagementSystem/
 │       ├── CreatePollFrame.java
 │       ├── VotingFrame.java
 │       └── ResultsFrame.java
+├── run.bat                          # Windows batch file to run
+├── README.md                        # Project documentation
 └── data/                            # Data files (auto-created)
     ├── users.dat
     ├── polls.dat
@@ -37,18 +39,18 @@ VoteManagementSystem/
 ## How to Run
 
 ### Method 1: Batch File
-1. Open the `run.bat` file in the project root (Windows only)
+1. Double-click the `run.bat` file in the project root (Windows only)
 2. This will compile and run the application automatically
 
 ### Method 2: Command Line
 1. Open terminal/command prompt
-2. Navigate to the project directory
-3. Compile: `javac -d bin src/com/votesystem/**/*.java`
-4. Run: `java -cp bin com.votesystem.VoteManagementSystem`
+2. Navigate to the project directory (`Java CIAP`)
+3. Compile: `javac -d . votesystem/**/*.java`
+4. Run: `java votesystem.VoteManagementSystem`
 
 ### Method 3: IDE
 1. Import the project into your Java IDE (Eclipse, IntelliJ, VS Code)
-2. Run the `VoteManagementSystem.java` main class
+2. Run the `VoteManagementSystem.java` main class from the `votesystem` package
 
 ## Default Login
 

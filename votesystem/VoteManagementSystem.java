@@ -1,4 +1,4 @@
-package com.votesystem;
+package votesystem;
 
 import com.votesystem.ui.LoginFrame;
 

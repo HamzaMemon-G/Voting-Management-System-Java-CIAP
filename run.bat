@@ -25,6 +25,6 @@ echo.
 echo Default login: admin/admin
 echo.
 
-java -cp bin com.votesystem.VoteManagementSystem
+java -cp bin votesystem.VoteManagementSystem
 
 pause
